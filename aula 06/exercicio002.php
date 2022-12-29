@@ -7,12 +7,15 @@
 </head>
 <body>
 <div>
-<?php
-$idade = 41;
-$nome = "gustavo";
-echo "$nome tem $idade anos!";
-?>
+    <?php
+    $atual = $_GET["aa"];
+    echo "<br> O ano atual é $atual e o ano anterior foi " . --$atual
+    ?>
+
 </div>
+
 </body>
+
+// comentario
 
 </html>

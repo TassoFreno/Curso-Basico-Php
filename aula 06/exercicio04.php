@@ -7,12 +7,19 @@
 </head>
 <body>
 <div>
-<?php
-$idade = 41;
-$nome = "gustavo";
-echo "$nome tem $idade anos!";
-?>
+    <?php
+ $x = abc;
+ $$x = "def";
+ echo "O conteudo da variavel x é $x";
+ echo "<br>A variavel ABC criada recebeu o valor $abc";
+
+
+    ?>
+
 </div>
+
 </body>
 
 </html>
+
+// 
