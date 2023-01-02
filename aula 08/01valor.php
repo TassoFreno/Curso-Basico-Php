@@ -8,7 +8,8 @@
 <body>
 <div>
     <?php
-        
+        $valor = $_GET["v"]
+    echo "o VAlor enviado foi $valor";
     ?>
 </div>
 </body>
