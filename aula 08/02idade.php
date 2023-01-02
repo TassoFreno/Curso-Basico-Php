@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head>ndem,berg
   <link rel="stylesheet" href="_css/estilo.css"/>
   <meta charset="UTF-8"/>
   <title>Curso de PHP - CursoemVideo.com</title>
@@ -8,13 +8,16 @@
 <body>
 <div>
     <?php
-        $valor = $_GET["v"];
+    $nome = $_GET["nome"];
+    $ano = $_GET["ano"];
+    $sexo = $_GET["sexo"];
+    $idade = date("Y") - $ano;
 
-    $rq = sqrt($valor);
-    echo "A raiz de $valor é igual á " . number_format($rq, 2);
+    echo "$nome tem $idade anos.";
+
 
     ?>
-    <a href="_modelohtml.html">Voltar</a>
+
 </div>
 </body>
 </html>
